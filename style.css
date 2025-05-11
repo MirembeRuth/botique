@@ -1,0 +1,103 @@
+
+
+/* General Body Styling */
+body {
+  background-color: #FAF3E0; /* Light Beige */
+  font-family: 'Arial', sans-serif;
+  color: #333333; /* Charcoal */
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2E8B57 !important; /* Emerald */
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #FAF3E0 !important; /* Light Beige */
+  font-weight: bold;
+}
+
+/* Logo */
+.logo {
+  width: 100px;
+}
+
+/* Section Styling */
+.home-section {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-section h1 {
+  color: #2E8B57; /* Emerald */
+  margin-bottom: 20px;
+}
+
+.home-section p {
+  font-size: 1.1rem;
+}
+
+.home-section {
+  background-color: #fff;
+  padding: 60px 20px;
+  border-top: 4px solid #2E8B57; /* Emerald */
+  border-bottom: 4px solid #333333; /* Charcoal */
+}
+
+/* Table Styling */
+.table th, .table td {
+  background-color: white;
+}
+
+/* Overlay */
+.overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* Button Styling */
+.btn-custom {
+  background-color: #2E8B57; /* Emerald */
+  color: #FAF3E0; /* Light Beige */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #1f6b43; /* Darker Emerald */
+  color: #fff;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333333; /* Charcoal */
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #FAF3E0; /* Light Beige */
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #2E8B57; /* Emerald */
+}
+
+/* Navbar Links */
+.nav-link {
+  color: white !important;
+}
+
